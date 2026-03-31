@@ -1,0 +1,1160 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180479F826620CA60003662E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479AD26620CA60003662E /* AppDelegate.swift */; };
+		180479F926620CA60003662E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180479AE26620CA60003662E /* Assets.xcassets */; };
+		180479FA26620CA60003662E /* ColoringBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 180479B026620CA60003662E /* ColoringBook.xcdatamodeld */; };
+		180479FB26620CA60003662E /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479B426620CA60003662E /* BaseVC.swift */; };
+		180479FC26620CA60003662E /* CategoryList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 180479B626620CA60003662E /* CategoryList.plist */; };
+		180479FD26620CA60003662E /* CategoryListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479B726620CA60003662E /* CategoryListVC.swift */; };
+		180479FE26620CA60003662E /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479B826620CA60003662E /* CategoryVC.swift */; };
+		180479FF26620CA60003662E /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479BB26620CA60003662E /* Define.swift */; };
+		18047A0026620CA60003662E /* floodFillAlgorithmHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479BC26620CA60003662E /* floodFillAlgorithmHelper.swift */; };
+		18047A0126620CA60003662E /* ImageViewFloodFillAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479BD26620CA60003662E /* ImageViewFloodFillAlgorithm.swift */; };
+		18047A0226620CA60003662E /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 180479BF26620CA60003662E /* OpenCVWrapper.mm */; };
+		18047A0326620CA60003662E /* PaintingTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479C326620CA60003662E /* PaintingTestVC.swift */; };
+		18047A0426620CA60003662E /* PromptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479C426620CA60003662E /* PromptsView.swift */; };
+		18047A0526620CA60003662E /* BrightnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479C626620CA60003662E /* BrightnessView.swift */; };
+		18047A0626620CA60003662E /* ColorCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479C726620CA60003662E /* ColorCollectionView.swift */; };
+		18047A0726620CA60003662E /* ColorCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479C826620CA60003662E /* ColorCollectionViewLayout.swift */; };
+		18047A0826620CA60003662E /* PaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479C926620CA60003662E /* PaletteView.swift */; };
+		18047A0926620CA60003662E /* PaletteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 180479CA26620CA60003662E /* PaletteView.xib */; };
+		18047A0A26620CA60003662E /* PaletteViewHeadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479CB26620CA60003662E /* PaletteViewHeadButton.swift */; };
+		18047A0B26620CA60003662E /* SwiftPrompts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479CD26620CA60003662E /* SwiftPrompts.swift */; };
+		18047A0C26620CA60003662E /* SwiftPromptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479CE26620CA60003662E /* SwiftPromptsView.swift */; };
+		18047A0D26620CA60003662E /* UIImageEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479CF26620CA60003662E /* UIImageEffects.swift */; };
+		18047A0E26620CA60003662E /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479D126620CA60003662E /* HomeVC.swift */; };
+		18047A0F26620CA60003662E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 180479D326620CA60003662E /* GoogleService-Info.plist */; };
+		18047A1126620CA60003662E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479D726620CA60003662E /* Constants.swift */; };
+		18047A1226620CA60003662E /* DefaulValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479D826620CA60003662E /* DefaulValues.swift */; };
+		18047A1326620CA60003662E /* DTColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479D926620CA60003662E /* DTColorPicker.swift */; };
+		18047A1426620CA60003662E /* KeychainSwiftDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479DA26620CA60003662E /* KeychainSwiftDistrib.swift */; };
+		18047A1526620CA60003662E /* StringClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479E126620CA60003662E /* StringClass.swift */; };
+		18047A1626620CA60003662E /* Viewclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180479E226620CA60003662E /* Viewclass.swift */; };
+		18047A1726620CA60003662E /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 180479E626620CA60003662E /* MMDrawerBarButtonItem.m */; };
+		18047A1826620CA60003662E /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180479E926620CA60003662E /* MMDrawerController.m */; };
+		18047A1926620CA60003662E /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 180479EB26620CA60003662E /* MMDrawerVisualState.m */; };
+		18047A1A26620CA60003662E /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180479ED26620CA60003662E /* UIViewController+MMDrawerController.m */; };
+		18047A1B26620CA60003662E /* Dosis-Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180479F326620CA60003662E /* Dosis-Book.ttf */; };
+		18047A1C26620CA60003662E /* waltograph.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 180479F426620CA60003662E /* waltograph.ttf */; };
+		18047A1D26620CA60003662E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180479F626620CA60003662E /* LaunchScreen.storyboard */; };
+		18047A1E26620CA60003662E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180479F726620CA60003662E /* Main.storyboard */; };
+		18284F7827731F3C00F103DB /* LinkedListStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 18284F7327731F3B00F103DB /* LinkedListStack.m */; };
+		18284F7927731F3C00F103DB /* UIImage+FloodFill.m in Sources */ = {isa = PBXBuildFile; fileRef = 18284F7527731F3C00F103DB /* UIImage+FloodFill.m */; };
+		18284F7A27731F3C00F103DB /* FloodFillImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18284F7627731F3C00F103DB /* FloodFillImageView.m */; };
+		18284F7C2773205200F103DB /* FillImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18284F7B2773205200F103DB /* FillImageVC.swift */; };
+		1848B030267728C900E8B272 /* AlloyInk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1848B02F267728C900E8B272 /* AlloyInk.otf */; };
+		184E9707279FBEC600B3B6CC /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E9706279FBEC600B3B6CC /* Service.swift */; };
+		184E9709279FC74700B3B6CC /* CommonStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E9708279FC74700B3B6CC /* CommonStruct.swift */; };
+		189EC39E2838CE33006A6FB6 /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EC3972838CE33006A6FB6 /* VideoInfo.swift */; };
+		189EC39F2838CE33006A6FB6 /* YoutubeDirectLinkExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EC3982838CE33006A6FB6 /* YoutubeDirectLinkExtractor.swift */; };
+		189EC3A02838CE33006A6FB6 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EC3992838CE33006A6FB6 /* Errors.swift */; };
+		189EC3A12838CE33006A6FB6 /* Array+SafeSubscript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EC39B2838CE33006A6FB6 /* Array+SafeSubscript.swift */; };
+		189EC3A22838CE33006A6FB6 /* String+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EC39C2838CE33006A6FB6 /* String+Components.swift */; };
+		189EC3A32838CE33006A6FB6 /* ExtractionSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189EC39D2838CE33006A6FB6 /* ExtractionSource.swift */; };
+		18ADE863277ECA24009C08BB /* TestUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ADE862277ECA24009C08BB /* TestUIImage.m */; };
+		18BFC85C27743E7000592106 /* LearnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BFC85B27743E7000592106 /* LearnVC.swift */; };
+		18EF0C0127759BD8006E3B75 /* PlayKidsVideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EF0C0027759BD8006E3B75 /* PlayKidsVideoVC.swift */; };
+		2A3F97B4202325B00085964F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A3F97B3202325AF0085964F /* libc++.tbd */; };
+		88806539200C746500955C74 /* ColoringBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88806538200C746500955C74 /* ColoringBookTests.swift */; };
+		88806544200C746500955C74 /* ColoringBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88806543200C746500955C74 /* ColoringBookUITests.swift */; };
+		C6AEE27D70119EF427553229 /* Pods_ColoringBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6513CC84AB53F71AD221E7E /* Pods_ColoringBook.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88806535200C746500955C74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88806515200C746500955C74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8880651C200C746500955C74;
+			remoteInfo = ColoringBook;
+		};
+		88806540200C746500955C74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88806515200C746500955C74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8880651C200C746500955C74;
+			remoteInfo = ColoringBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180479AD26620CA60003662E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		180479AE26620CA60003662E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180479AF26620CA60003662E /* ColoringBook.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = ColoringBook.entitlements; sourceTree = "<group>"; };
+		180479B126620CA60003662E /* ColoringBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ColoringBook.xcdatamodel; sourceTree = "<group>"; };
+		180479B426620CA60003662E /* BaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		180479B626620CA60003662E /* CategoryList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CategoryList.plist; sourceTree = "<group>"; };
+		180479B726620CA60003662E /* CategoryListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryListVC.swift; sourceTree = "<group>"; };
+		180479B826620CA60003662E /* CategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
+		180479BB26620CA60003662E /* Define.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		180479BC26620CA60003662E /* floodFillAlgorithmHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = floodFillAlgorithmHelper.swift; sourceTree = "<group>"; };
+		180479BD26620CA60003662E /* ImageViewFloodFillAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewFloodFillAlgorithm.swift; sourceTree = "<group>"; };
+		180479BE26620CA60003662E /* OpenCVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		180479BF26620CA60003662E /* OpenCVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		180479C326620CA60003662E /* PaintingTestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaintingTestVC.swift; sourceTree = "<group>"; };
+		180479C426620CA60003662E /* PromptsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromptsView.swift; sourceTree = "<group>"; };
+		180479C626620CA60003662E /* BrightnessView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrightnessView.swift; sourceTree = "<group>"; };
+		180479C726620CA60003662E /* ColorCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCollectionView.swift; sourceTree = "<group>"; };
+		180479C826620CA60003662E /* ColorCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorCollectionViewLayout.swift; sourceTree = "<group>"; };
+		180479C926620CA60003662E /* PaletteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteView.swift; sourceTree = "<group>"; };
+		180479CA26620CA60003662E /* PaletteView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PaletteView.xib; sourceTree = "<group>"; };
+		180479CB26620CA60003662E /* PaletteViewHeadButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaletteViewHeadButton.swift; sourceTree = "<group>"; };
+		180479CD26620CA60003662E /* SwiftPrompts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPrompts.swift; sourceTree = "<group>"; };
+		180479CE26620CA60003662E /* SwiftPromptsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPromptsView.swift; sourceTree = "<group>"; };
+		180479CF26620CA60003662E /* UIImageEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageEffects.swift; sourceTree = "<group>"; };
+		180479D126620CA60003662E /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		180479D326620CA60003662E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		180479D426620CA60003662E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180479D726620CA60003662E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		180479D826620CA60003662E /* DefaulValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaulValues.swift; sourceTree = "<group>"; };
+		180479D926620CA60003662E /* DTColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTColorPicker.swift; sourceTree = "<group>"; };
+		180479DA26620CA60003662E /* KeychainSwiftDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainSwiftDistrib.swift; sourceTree = "<group>"; };
+		180479E126620CA60003662E /* StringClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringClass.swift; sourceTree = "<group>"; };
+		180479E226620CA60003662E /* Viewclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Viewclass.swift; sourceTree = "<group>"; };
+		180479E526620CA60003662E /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		180479E626620CA60003662E /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		180479E726620CA60003662E /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		180479E826620CA60003662E /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		180479E926620CA60003662E /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		180479EA26620CA60003662E /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		180479EB26620CA60003662E /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		180479EC26620CA60003662E /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		180479ED26620CA60003662E /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		180479F226620CA60003662E /* ColoringBook-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ColoringBook-Bridging-Header.h"; sourceTree = "<group>"; };
+		180479F326620CA60003662E /* Dosis-Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Book.ttf"; sourceTree = "<group>"; };
+		180479F426620CA60003662E /* waltograph.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = waltograph.ttf; sourceTree = "<group>"; };
+		180479F626620CA60003662E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180479F726620CA60003662E /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		18284F7227731F3B00F103DB /* UIImage+FloodFill.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FloodFill.h"; sourceTree = "<group>"; };
+		18284F7327731F3B00F103DB /* LinkedListStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedListStack.m; sourceTree = "<group>"; };
+		18284F7427731F3C00F103DB /* FloodFillImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloodFillImageView.h; sourceTree = "<group>"; };
+		18284F7527731F3C00F103DB /* UIImage+FloodFill.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FloodFill.m"; sourceTree = "<group>"; };
+		18284F7627731F3C00F103DB /* FloodFillImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloodFillImageView.m; sourceTree = "<group>"; };
+		18284F7727731F3C00F103DB /* LinkedListStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedListStack.h; sourceTree = "<group>"; };
+		18284F7B2773205200F103DB /* FillImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FillImageVC.swift; sourceTree = "<group>"; };
+		1848B02F267728C900E8B272 /* AlloyInk.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AlloyInk.otf; sourceTree = "<group>"; };
+		184E9706279FBEC600B3B6CC /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		184E9708279FC74700B3B6CC /* CommonStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonStruct.swift; sourceTree = "<group>"; };
+		189EC3972838CE33006A6FB6 /* VideoInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoInfo.swift; sourceTree = "<group>"; };
+		189EC3982838CE33006A6FB6 /* YoutubeDirectLinkExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeDirectLinkExtractor.swift; sourceTree = "<group>"; };
+		189EC3992838CE33006A6FB6 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		189EC39B2838CE33006A6FB6 /* Array+SafeSubscript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+SafeSubscript.swift"; sourceTree = "<group>"; };
+		189EC39C2838CE33006A6FB6 /* String+Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Components.swift"; sourceTree = "<group>"; };
+		189EC39D2838CE33006A6FB6 /* ExtractionSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtractionSource.swift; sourceTree = "<group>"; };
+		18ADE861277ECA24009C08BB /* TestUIImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestUIImage.h; sourceTree = "<group>"; };
+		18ADE862277ECA24009C08BB /* TestUIImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestUIImage.m; sourceTree = "<group>"; };
+		18BFC85B27743E7000592106 /* LearnVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnVC.swift; sourceTree = "<group>"; };
+		18EF0C0027759BD8006E3B75 /* PlayKidsVideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayKidsVideoVC.swift; sourceTree = "<group>"; };
+		2A3F97B3202325AF0085964F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8880651D200C746500955C74 /* ColoringBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColoringBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88806534200C746500955C74 /* ColoringBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoringBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88806538200C746500955C74 /* ColoringBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringBookTests.swift; sourceTree = "<group>"; };
+		8880653A200C746500955C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8880653F200C746500955C74 /* ColoringBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoringBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88806543200C746500955C74 /* ColoringBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoringBookUITests.swift; sourceTree = "<group>"; };
+		88806545200C746500955C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6513CC84AB53F71AD221E7E /* Pods_ColoringBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ColoringBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F2FFD1E47CFD540690A738 /* Pods-ColoringBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColoringBook.release.xcconfig"; path = "Target Support Files/Pods-ColoringBook/Pods-ColoringBook.release.xcconfig"; sourceTree = "<group>"; };
+		F938E8DAD416C74516F746CF /* Pods-ColoringBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColoringBook.debug.xcconfig"; path = "Target Support Files/Pods-ColoringBook/Pods-ColoringBook.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8880651A200C746500955C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3F97B4202325B00085964F /* libc++.tbd in Frameworks */,
+				C6AEE27D70119EF427553229 /* Pods_ColoringBook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88806531200C746500955C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8880653C200C746500955C74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180479AC26620CA60003662E /* ColoringBook */ = {
+			isa = PBXGroup;
+			children = (
+				180479AD26620CA60003662E /* AppDelegate.swift */,
+				180479AE26620CA60003662E /* Assets.xcassets */,
+				180479AF26620CA60003662E /* ColoringBook.entitlements */,
+				180479B026620CA60003662E /* ColoringBook.xcdatamodeld */,
+				180479B226620CA60003662E /* Controller */,
+				180479D326620CA60003662E /* GoogleService-Info.plist */,
+				180479D426620CA60003662E /* Info.plist */,
+				180479D526620CA60003662E /* Modal */,
+				180479F526620CA60003662E /* View */,
+			);
+			path = ColoringBook;
+			sourceTree = "<group>";
+		};
+		180479B226620CA60003662E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18EF0BFF27759BC5006E3B75 /* VideoVC */,
+				18BFC85A27743E5B00592106 /* LearnVC */,
+				180479B326620CA60003662E /* BaseVC */,
+				180479B526620CA60003662E /* CategoryVC */,
+				180479B926620CA60003662E /* ColorVC */,
+				180479D026620CA60003662E /* HomeVC */,
+				180479D226620CA60003662E /* ObjectiveC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		180479B326620CA60003662E /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				180479B426620CA60003662E /* BaseVC.swift */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		180479B526620CA60003662E /* CategoryVC */ = {
+			isa = PBXGroup;
+			children = (
+				180479B626620CA60003662E /* CategoryList.plist */,
+				180479B726620CA60003662E /* CategoryListVC.swift */,
+				180479B826620CA60003662E /* CategoryVC.swift */,
+			);
+			path = CategoryVC;
+			sourceTree = "<group>";
+		};
+		180479B926620CA60003662E /* ColorVC */ = {
+			isa = PBXGroup;
+			children = (
+				180479BA26620CA60003662E /* FloodFillAlgorithm */,
+				180479C026620CA60003662E /* ObjC */,
+				180479C126620CA60003662E /* optimized FloodFill */,
+				180479C226620CA60003662E /* PaintView */,
+				180479C526620CA60003662E /* PaletteView */,
+				180479CC26620CA60003662E /* SwiftPrompts */,
+			);
+			path = ColorVC;
+			sourceTree = "<group>";
+		};
+		180479BA26620CA60003662E /* FloodFillAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				180479BB26620CA60003662E /* Define.swift */,
+				180479BC26620CA60003662E /* floodFillAlgorithmHelper.swift */,
+				180479BD26620CA60003662E /* ImageViewFloodFillAlgorithm.swift */,
+				180479BE26620CA60003662E /* OpenCVWrapper.h */,
+				180479BF26620CA60003662E /* OpenCVWrapper.mm */,
+			);
+			path = FloodFillAlgorithm;
+			sourceTree = "<group>";
+		};
+		180479C026620CA60003662E /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		180479C126620CA60003662E /* optimized FloodFill */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "optimized FloodFill";
+			sourceTree = "<group>";
+		};
+		180479C226620CA60003662E /* PaintView */ = {
+			isa = PBXGroup;
+			children = (
+				180479C326620CA60003662E /* PaintingTestVC.swift */,
+				180479C426620CA60003662E /* PromptsView.swift */,
+				18284F7B2773205200F103DB /* FillImageVC.swift */,
+			);
+			path = PaintView;
+			sourceTree = "<group>";
+		};
+		180479C526620CA60003662E /* PaletteView */ = {
+			isa = PBXGroup;
+			children = (
+				180479C626620CA60003662E /* BrightnessView.swift */,
+				180479C726620CA60003662E /* ColorCollectionView.swift */,
+				180479C826620CA60003662E /* ColorCollectionViewLayout.swift */,
+				180479C926620CA60003662E /* PaletteView.swift */,
+				180479CA26620CA60003662E /* PaletteView.xib */,
+				180479CB26620CA60003662E /* PaletteViewHeadButton.swift */,
+			);
+			path = PaletteView;
+			sourceTree = "<group>";
+		};
+		180479CC26620CA60003662E /* SwiftPrompts */ = {
+			isa = PBXGroup;
+			children = (
+				180479CD26620CA60003662E /* SwiftPrompts.swift */,
+				180479CE26620CA60003662E /* SwiftPromptsView.swift */,
+				180479CF26620CA60003662E /* UIImageEffects.swift */,
+			);
+			path = SwiftPrompts;
+			sourceTree = "<group>";
+		};
+		180479D026620CA60003662E /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				180479D126620CA60003662E /* HomeVC.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		180479D226620CA60003662E /* ObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ObjectiveC;
+			sourceTree = "<group>";
+		};
+		180479D526620CA60003662E /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				189EC3962838CE04006A6FB6 /* Youtube */,
+				18284F7127731F2400F103DB /* FillColor */,
+				180479D626620CA60003662E /* Constant */,
+				180479E326620CA60003662E /* Libraries */,
+				180479F126620CA60003662E /* SupportingFile */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		180479D626620CA60003662E /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				180479D726620CA60003662E /* Constants.swift */,
+				180479D826620CA60003662E /* DefaulValues.swift */,
+				180479D926620CA60003662E /* DTColorPicker.swift */,
+				180479DA26620CA60003662E /* KeychainSwiftDistrib.swift */,
+				180479DB26620CA60003662E /* Libraries */,
+				180479E126620CA60003662E /* StringClass.swift */,
+				180479E226620CA60003662E /* Viewclass.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		180479DB26620CA60003662E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				180479DC26620CA60003662E /* Charts-master */,
+				180479DF26620CA60003662E /* MMDrawer */,
+				180479E026620CA60003662E /* WebService */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		180479DC26620CA60003662E /* Charts-master */ = {
+			isa = PBXGroup;
+			children = (
+				180479DD26620CA60003662E /* ChartsDemo-OSX */,
+			);
+			path = "Charts-master";
+			sourceTree = "<group>";
+		};
+		180479DD26620CA60003662E /* ChartsDemo-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				180479DE26620CA60003662E /* ChartsDemo-OSX */,
+			);
+			path = "ChartsDemo-OSX";
+			sourceTree = "<group>";
+		};
+		180479DE26620CA60003662E /* ChartsDemo-OSX */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "ChartsDemo-OSX";
+			sourceTree = "<group>";
+		};
+		180479DF26620CA60003662E /* MMDrawer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MMDrawer;
+			sourceTree = "<group>";
+		};
+		180479E026620CA60003662E /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		180479E326620CA60003662E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				180479E426620CA60003662E /* MMDrawer */,
+				180479EE26620CA60003662E /* RNNotification */,
+				180479EF26620CA60003662E /* TPKeyboardAvoiding */,
+				180479F026620CA60003662E /* WebService */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		180479E426620CA60003662E /* MMDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				180479E526620CA60003662E /* MMDrawerBarButtonItem.h */,
+				180479E626620CA60003662E /* MMDrawerBarButtonItem.m */,
+				180479E726620CA60003662E /* MMDrawerController+Subclass.h */,
+				180479E826620CA60003662E /* MMDrawerController.h */,
+				180479E926620CA60003662E /* MMDrawerController.m */,
+				180479EA26620CA60003662E /* MMDrawerVisualState.h */,
+				180479EB26620CA60003662E /* MMDrawerVisualState.m */,
+				180479EC26620CA60003662E /* UIViewController+MMDrawerController.h */,
+				180479ED26620CA60003662E /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawer;
+			sourceTree = "<group>";
+		};
+		180479EE26620CA60003662E /* RNNotification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RNNotification;
+			sourceTree = "<group>";
+		};
+		180479EF26620CA60003662E /* TPKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TPKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		180479F026620CA60003662E /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				184E9708279FC74700B3B6CC /* CommonStruct.swift */,
+				184E9706279FBEC600B3B6CC /* Service.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		180479F126620CA60003662E /* SupportingFile */ = {
+			isa = PBXGroup;
+			children = (
+				180479F226620CA60003662E /* ColoringBook-Bridging-Header.h */,
+				180479F326620CA60003662E /* Dosis-Book.ttf */,
+				1848B02F267728C900E8B272 /* AlloyInk.otf */,
+				180479F426620CA60003662E /* waltograph.ttf */,
+			);
+			path = SupportingFile;
+			sourceTree = "<group>";
+		};
+		180479F526620CA60003662E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				180479F626620CA60003662E /* LaunchScreen.storyboard */,
+				180479F726620CA60003662E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		180EC0A49DDF726FD1C24FDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A3F97B3202325AF0085964F /* libc++.tbd */,
+				C6513CC84AB53F71AD221E7E /* Pods_ColoringBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18284F7127731F2400F103DB /* FillColor */ = {
+			isa = PBXGroup;
+			children = (
+				18284F7427731F3C00F103DB /* FloodFillImageView.h */,
+				18284F7627731F3C00F103DB /* FloodFillImageView.m */,
+				18284F7727731F3C00F103DB /* LinkedListStack.h */,
+				18284F7327731F3B00F103DB /* LinkedListStack.m */,
+				18284F7227731F3B00F103DB /* UIImage+FloodFill.h */,
+				18284F7527731F3C00F103DB /* UIImage+FloodFill.m */,
+				18ADE861277ECA24009C08BB /* TestUIImage.h */,
+				18ADE862277ECA24009C08BB /* TestUIImage.m */,
+			);
+			path = FillColor;
+			sourceTree = "<group>";
+		};
+		189EC3962838CE04006A6FB6 /* Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				189EC3992838CE33006A6FB6 /* Errors.swift */,
+				189EC39A2838CE33006A6FB6 /* Extensions */,
+				189EC39D2838CE33006A6FB6 /* ExtractionSource.swift */,
+				189EC3972838CE33006A6FB6 /* VideoInfo.swift */,
+				189EC3982838CE33006A6FB6 /* YoutubeDirectLinkExtractor.swift */,
+			);
+			path = Youtube;
+			sourceTree = "<group>";
+		};
+		189EC39A2838CE33006A6FB6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				189EC39B2838CE33006A6FB6 /* Array+SafeSubscript.swift */,
+				189EC39C2838CE33006A6FB6 /* String+Components.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		18BFC85A27743E5B00592106 /* LearnVC */ = {
+			isa = PBXGroup;
+			children = (
+				18BFC85B27743E7000592106 /* LearnVC.swift */,
+			);
+			path = LearnVC;
+			sourceTree = "<group>";
+		};
+		18EF0BFF27759BC5006E3B75 /* VideoVC */ = {
+			isa = PBXGroup;
+			children = (
+				18EF0C0027759BD8006E3B75 /* PlayKidsVideoVC.swift */,
+			);
+			path = VideoVC;
+			sourceTree = "<group>";
+		};
+		8581378E4418FA960068F7F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F938E8DAD416C74516F746CF /* Pods-ColoringBook.debug.xcconfig */,
+				E3F2FFD1E47CFD540690A738 /* Pods-ColoringBook.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		88806514200C746500955C74 = {
+			isa = PBXGroup;
+			children = (
+				180479AC26620CA60003662E /* ColoringBook */,
+				88806537200C746500955C74 /* ColoringBookTests */,
+				88806542200C746500955C74 /* ColoringBookUITests */,
+				8880651E200C746500955C74 /* Products */,
+				180EC0A49DDF726FD1C24FDC /* Frameworks */,
+				8581378E4418FA960068F7F3 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8880651E200C746500955C74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8880651D200C746500955C74 /* ColoringBook.app */,
+				88806534200C746500955C74 /* ColoringBookTests.xctest */,
+				8880653F200C746500955C74 /* ColoringBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88806537200C746500955C74 /* ColoringBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				88806538200C746500955C74 /* ColoringBookTests.swift */,
+				8880653A200C746500955C74 /* Info.plist */,
+			);
+			path = ColoringBookTests;
+			sourceTree = "<group>";
+		};
+		88806542200C746500955C74 /* ColoringBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88806543200C746500955C74 /* ColoringBookUITests.swift */,
+				88806545200C746500955C74 /* Info.plist */,
+			);
+			path = ColoringBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8880651C200C746500955C74 /* ColoringBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88806548200C746500955C74 /* Build configuration list for PBXNativeTarget "ColoringBook" */;
+			buildPhases = (
+				0CD9995DE85560CD79E1AADE /* [CP] Check Pods Manifest.lock */,
+				88806519200C746500955C74 /* Sources */,
+				8880651A200C746500955C74 /* Frameworks */,
+				8880651B200C746500955C74 /* Resources */,
+				019042FE5C773FC1DF0C5FCE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColoringBook;
+			productName = ColoringBook;
+			productReference = 8880651D200C746500955C74 /* ColoringBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88806533200C746500955C74 /* ColoringBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8880654B200C746500955C74 /* Build configuration list for PBXNativeTarget "ColoringBookTests" */;
+			buildPhases = (
+				88806530200C746500955C74 /* Sources */,
+				88806531200C746500955C74 /* Frameworks */,
+				88806532200C746500955C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88806536200C746500955C74 /* PBXTargetDependency */,
+			);
+			name = ColoringBookTests;
+			productName = ColoringBookTests;
+			productReference = 88806534200C746500955C74 /* ColoringBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8880653E200C746500955C74 /* ColoringBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8880654E200C746500955C74 /* Build configuration list for PBXNativeTarget "ColoringBookUITests" */;
+			buildPhases = (
+				8880653B200C746500955C74 /* Sources */,
+				8880653C200C746500955C74 /* Frameworks */,
+				8880653D200C746500955C74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88806541200C746500955C74 /* PBXTargetDependency */,
+			);
+			name = ColoringBookUITests;
+			productName = ColoringBookUITests;
+			productReference = 8880653F200C746500955C74 /* ColoringBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88806515200C746500955C74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "I MAC";
+				TargetAttributes = {
+					8880651C200C746500955C74 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					88806533200C746500955C74 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8880651C200C746500955C74;
+					};
+					8880653E200C746500955C74 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8880651C200C746500955C74;
+					};
+				};
+			};
+			buildConfigurationList = 88806518200C746500955C74 /* Build configuration list for PBXProject "ColoringBook" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88806514200C746500955C74;
+			productRefGroup = 8880651E200C746500955C74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8880651C200C746500955C74 /* ColoringBook */,
+				88806533200C746500955C74 /* ColoringBookTests */,
+				8880653E200C746500955C74 /* ColoringBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8880651B200C746500955C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1848B030267728C900E8B272 /* AlloyInk.otf in Resources */,
+				18047A0926620CA60003662E /* PaletteView.xib in Resources */,
+				18047A1D26620CA60003662E /* LaunchScreen.storyboard in Resources */,
+				18047A0F26620CA60003662E /* GoogleService-Info.plist in Resources */,
+				18047A1B26620CA60003662E /* Dosis-Book.ttf in Resources */,
+				180479FC26620CA60003662E /* CategoryList.plist in Resources */,
+				18047A1E26620CA60003662E /* Main.storyboard in Resources */,
+				18047A1C26620CA60003662E /* waltograph.ttf in Resources */,
+				180479F926620CA60003662E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88806532200C746500955C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8880653D200C746500955C74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		019042FE5C773FC1DF0C5FCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ColoringBook/Pods-ColoringBook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FCAlertView/FCAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseMessaging/FirebaseMessaging.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Siren/Siren.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FCAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreInternal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseMessaging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Siren.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ColoringBook/Pods-ColoringBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CD9995DE85560CD79E1AADE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColoringBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88806519200C746500955C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18047A1926620CA60003662E /* MMDrawerVisualState.m in Sources */,
+				189EC3A12838CE33006A6FB6 /* Array+SafeSubscript.swift in Sources */,
+				18047A0626620CA60003662E /* ColorCollectionView.swift in Sources */,
+				18047A1626620CA60003662E /* Viewclass.swift in Sources */,
+				18047A1A26620CA60003662E /* UIViewController+MMDrawerController.m in Sources */,
+				18047A1826620CA60003662E /* MMDrawerController.m in Sources */,
+				18EF0C0127759BD8006E3B75 /* PlayKidsVideoVC.swift in Sources */,
+				189EC39F2838CE33006A6FB6 /* YoutubeDirectLinkExtractor.swift in Sources */,
+				18047A0E26620CA60003662E /* HomeVC.swift in Sources */,
+				18047A0326620CA60003662E /* PaintingTestVC.swift in Sources */,
+				18047A1726620CA60003662E /* MMDrawerBarButtonItem.m in Sources */,
+				18047A0726620CA60003662E /* ColorCollectionViewLayout.swift in Sources */,
+				180479FE26620CA60003662E /* CategoryVC.swift in Sources */,
+				180479F826620CA60003662E /* AppDelegate.swift in Sources */,
+				18BFC85C27743E7000592106 /* LearnVC.swift in Sources */,
+				18284F7827731F3C00F103DB /* LinkedListStack.m in Sources */,
+				18047A1326620CA60003662E /* DTColorPicker.swift in Sources */,
+				18ADE863277ECA24009C08BB /* TestUIImage.m in Sources */,
+				18047A0426620CA60003662E /* PromptsView.swift in Sources */,
+				18047A0226620CA60003662E /* OpenCVWrapper.mm in Sources */,
+				18047A0D26620CA60003662E /* UIImageEffects.swift in Sources */,
+				18047A0026620CA60003662E /* floodFillAlgorithmHelper.swift in Sources */,
+				180479FB26620CA60003662E /* BaseVC.swift in Sources */,
+				18047A1126620CA60003662E /* Constants.swift in Sources */,
+				18047A1226620CA60003662E /* DefaulValues.swift in Sources */,
+				189EC3A32838CE33006A6FB6 /* ExtractionSource.swift in Sources */,
+				18047A0126620CA60003662E /* ImageViewFloodFillAlgorithm.swift in Sources */,
+				18284F7C2773205200F103DB /* FillImageVC.swift in Sources */,
+				18284F7927731F3C00F103DB /* UIImage+FloodFill.m in Sources */,
+				180479FD26620CA60003662E /* CategoryListVC.swift in Sources */,
+				180479FF26620CA60003662E /* Define.swift in Sources */,
+				184E9709279FC74700B3B6CC /* CommonStruct.swift in Sources */,
+				180479FA26620CA60003662E /* ColoringBook.xcdatamodeld in Sources */,
+				184E9707279FBEC600B3B6CC /* Service.swift in Sources */,
+				18047A0826620CA60003662E /* PaletteView.swift in Sources */,
+				18047A1526620CA60003662E /* StringClass.swift in Sources */,
+				189EC3A02838CE33006A6FB6 /* Errors.swift in Sources */,
+				18047A0A26620CA60003662E /* PaletteViewHeadButton.swift in Sources */,
+				18047A0526620CA60003662E /* BrightnessView.swift in Sources */,
+				189EC3A22838CE33006A6FB6 /* String+Components.swift in Sources */,
+				18284F7A27731F3C00F103DB /* FloodFillImageView.m in Sources */,
+				18047A0C26620CA60003662E /* SwiftPromptsView.swift in Sources */,
+				189EC39E2838CE33006A6FB6 /* VideoInfo.swift in Sources */,
+				18047A0B26620CA60003662E /* SwiftPrompts.swift in Sources */,
+				18047A1426620CA60003662E /* KeychainSwiftDistrib.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88806530200C746500955C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88806539200C746500955C74 /* ColoringBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8880653B200C746500955C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88806544200C746500955C74 /* ColoringBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88806536200C746500955C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8880651C200C746500955C74 /* ColoringBook */;
+			targetProxy = 88806535200C746500955C74 /* PBXContainerItemProxy */;
+		};
+		88806541200C746500955C74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8880651C200C746500955C74 /* ColoringBook */;
+			targetProxy = 88806540200C746500955C74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		88806546200C746500955C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88806547200C746500955C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		88806549200C746500955C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F938E8DAD416C74516F746CF /* Pods-ColoringBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ColoringBook/ColoringBook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_TEAM = C7R3Y3G5X7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ColoringBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.setblue.colouringBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ColoringBook/Modal/SupportingFile/ColoringBook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8880654A200C746500955C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F2FFD1E47CFD540690A738 /* Pods-ColoringBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ColoringBook/ColoringBook.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.1;
+				DEVELOPMENT_TEAM = C7R3Y3G5X7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = ColoringBook/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.setblue.colouringBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ColoringBook/Modal/SupportingFile/ColoringBook-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8880654C200C746500955C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7R3Y3G5X7;
+				INFOPLIST_FILE = ColoringBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ColoringBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColoringBook.app/ColoringBook";
+			};
+			name = Debug;
+		};
+		8880654D200C746500955C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7R3Y3G5X7;
+				INFOPLIST_FILE = ColoringBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ColoringBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColoringBook.app/ColoringBook";
+			};
+			name = Release;
+		};
+		8880654F200C746500955C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7R3Y3G5X7;
+				INFOPLIST_FILE = ColoringBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ColoringBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColoringBook;
+			};
+			name = Debug;
+		};
+		88806550200C746500955C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C7R3Y3G5X7;
+				INFOPLIST_FILE = ColoringBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ColoringBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColoringBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88806518200C746500955C74 /* Build configuration list for PBXProject "ColoringBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88806546200C746500955C74 /* Debug */,
+				88806547200C746500955C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88806548200C746500955C74 /* Build configuration list for PBXNativeTarget "ColoringBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88806549200C746500955C74 /* Debug */,
+				8880654A200C746500955C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8880654B200C746500955C74 /* Build configuration list for PBXNativeTarget "ColoringBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8880654C200C746500955C74 /* Debug */,
+				8880654D200C746500955C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8880654E200C746500955C74 /* Build configuration list for PBXNativeTarget "ColoringBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8880654F200C746500955C74 /* Debug */,
+				88806550200C746500955C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		180479B026620CA60003662E /* ColoringBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				180479B126620CA60003662E /* ColoringBook.xcdatamodel */,
+			);
+			currentVersion = 180479B126620CA60003662E /* ColoringBook.xcdatamodel */;
+			path = ColoringBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 88806515200C746500955C74 /* Project object */;
+}
